@@ -686,33 +686,32 @@ ul.rb li .timestamp {
   gap: 1rem;
   border-radius: 10px;
 }
-.tokenomicsCard div{
+.tokenomicsCard div {
   display: flex;
-  gap: .5rem ;
-  font-size: .8rem;
+  gap: 0.5rem;
+  font-size: 0.8rem;
 }
 .buybtn {
   background: #50d890;
   font-weight: 700;
   border-radius: 8px;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
-.buybtn  p{
-  font-weight: 700;
+.buybtn p {
+  
   margin: auto;
-  padding: .51rem;
+  padding: 0.51rem;
 }
 
-.tokendesc{
+.tokendesc {
   width: 100%;
   margin: 2rem 0;
   background-color: #20136a;
   padding: 1rem 1.5rem;
   color: white;
   font-weight: 100;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-
 
 @media (min-width: 760px) {
   .piechartLegends {
