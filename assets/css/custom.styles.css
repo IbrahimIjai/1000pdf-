@@ -678,7 +678,7 @@ ul.rb li .timestamp {
 .tokenomicsCard {
   background: radial-gradient(circle, #4a3c97 0%, #2e1d8b 35%, #1f0e7c 100%);
   color: white;
-  width: 90%;
+  /* width: 90%; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -702,6 +702,18 @@ ul.rb li .timestamp {
   margin: auto;
   padding: .51rem;
 }
+
+.tokendesc{
+  width: 100%;
+  margin: 2rem 0;
+  background-color: #20136a;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-weight: 100;
+  font-size: .8rem;
+}
+
+
 @media (min-width: 760px) {
   .piechartLegends {
     justify-content: center;
