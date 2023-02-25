@@ -600,3 +600,126 @@ ul.rb li .timestamp {
     flex-wrap: wrap;
   }
 }
+
+/* work afresh */
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 0 0 0;
+}
+.section1 div {
+  display: flex;
+  font-size: 0.6rem;
+  color: white;
+  font-weight: 800;
+  gap: 0.6rem;
+}
+.section1 .curpage {
+  font-size: 2rem;
+  color: white;
+  font-weight: 900;
+}
+.piechatContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 310px;
+  height: 300px;
+}
+.piechart {
+  position: absolute;
+}
+.piechartLegends {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.piechartLegends div {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.piechartLegends div div {
+  width: 15px;
+  height: 15px;
+}
+.piechartLegends div p {
+  font-size: 0.5rem;
+  color: white;
+  font-weight: 700;
+  max-width: 20px;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+.tokenomicsCard {
+  background: radial-gradient(circle, #4a3c97 0%, #2e1d8b 35%, #1f0e7c 100%);
+  color: white;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 3rem;
+  gap: 1rem;
+  border-radius: 10px;
+}
+.tokenomicsCard div{
+  display: flex;
+  gap: .5rem ;
+  font-size: .8rem;
+}
+.buybtn {
+  background: #50d890;
+  font-weight: 700;
+  border-radius: 8px;
+  font-size: .7rem;
+}
+.buybtn  p{
+  font-weight: 700;
+  margin: auto;
+  padding: .51rem;
+}
+@media (min-width: 760px) {
+  .piechartLegends {
+    justify-content: center;
+    gap: 3.5rem;
+  }
+  .piechartLegends div p {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1020px) {
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .imgcontainer {
+    width: 450px;
+  }
+}
