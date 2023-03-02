@@ -19,7 +19,9 @@ body {
 }
 
 /* caroselllll */
-
+.caroselContainer{
+  overflow: hidden;
+}
 .carousel {
   width: 100vw;
   position: relative;
@@ -145,3 +147,173 @@ body {
   text-align: center;
   /* font-weight: 400; */
 }
+
+
+/* cards */
+.projectdetailscardcardContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh 2vw;
+}
+.projectdetailscard{
+  width: 80%; 
+  background-color: wheat;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.addresscontainerMain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.addresscontainerMain > .btnContainer{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.addresscontainerMain > .btnContainer > button{
+  background-color: rgb(79, 138, 234);
+  outline: none;
+  border: none;
+  padding: .61rem;
+  border-radius: 12px;
+  font-size: .8rem;
+  font-weight: 600;
+}
+.addresscontainer{
+  border: .6px solid gray;
+  display: flex;
+  border-radius: 12px;
+  font-size: .8rem;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 0 .3rem;
+  justify-content: space-between;
+}
+#tickIcon{
+  margin-top: 1rem;
+  display: none;
+  color: green;
+  font-weight: 700;
+}
+.addresscontainer > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addresscontainer > div > select{
+  font-weight: 900;
+  color: rgb(5, 5, 45);
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.addresscontainer > .bsccontractaddress{
+  text-align: center;
+  margin-top: .7rem;
+}
+
+
+.socials{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding-top: 2rem;
+}
+.socials > p{
+  font-weight: 600;
+  font-size: 1.8;
+}
+.socials > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+
+.auditcertickimg{
+  margin: auto;
+  width: 150px;
+  height: 60px;
+  padding: 1rem 0;
+}
+
+.linkstotokendetails{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.linkstotokendetails > a{
+  background-color: rgb(79, 138, 234);
+  padding: .4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 12px;
+  font-size: .8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.linkstotokendetails > a > button{
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+
+
+/* features */
+.tokensellpoint{
+  padding: 2rem 8.5vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(158, 154, 145);
+  background-color: rgb(3, 7, 77);
+}
+.tokensellpoint > .sec {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+
+}
+.tokensellpoint > .sec > h3{
+  font-weight: 600
+}
+.tokensellpoint > .sec > .keyfeatures{
+  display: flex;
+  gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
